@@ -1,0 +1,520 @@
+body{
+    height: 950vh;
+}
+.Navbar{
+    width: 100%;
+    height: 12vh;
+}
+.Navbar, ul{ 
+    font-family: 'Jost', sans-serif;
+display: flex;
+margin-left: 90px;
+margin-top: 30px;
+background-color: white;
+}
+#Int{
+font-size: 45px;
+text-decoration: none;
+font-weight: 600;
+color: black;
+}
+.brand{
+   margin-top: 15px; 
+}
+.Navbar ul li{
+     margin-left: 50px;
+list-style-type: none;
+
+}
+.Navbar ul{
+margin-left: 700px;
+font-size: 30px;
+}
+.Navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+#Home{
+    color: #CDA274;
+}
+.main{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url("./main1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 0px 0px 0px 290px;
+}   
+.textofmain{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.textofmain h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 96px;
+letter-spacing: 0.22px;
+color: #292F36;
+margin: 10px;
+}
+.textofmain p{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.22px;
+color: #4D5053;
+margin: 0px;
+}
+
+#str1{
+    right: 50px;
+  margin-bottom: 9px;
+  margin-left: 20px;
+}
+#str2{
+   top: 15px;
+    position: absolute;
+    left: 200px;
+}
+.GetStarted{
+    background: #292F36;
+border: 2px solid #292F36;
+border-radius: 18px;
+box-sizing: border-box;
+position: absolute;
+width: 240px;
+height: 9vh;
+margin-left: 100px;
+margin-top: 50px;
+
+
+}
+.GetStarted p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#TGet{
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.lefttext, .lefttext2{
+    font-family: 'Jost';
+    width: 28%;
+    text-align: center;
+}
+.lefttext2{
+    margin-top: -50px;
+}
+.lefttext h1, .lefttext2 h1{
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 39px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #292F36;
+}
+.lefttext p, .lefttext2 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin: 5px;
+   
+}
+.View a, .View1 a, .View2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Jost';
+}
+.View{
+    padding-top: 50px;
+}
+.View1{
+    padding-top: 20px;
+}
+.View2{
+    padding-top: 15px;
+}
+#str3{
+padding-bottom: 5.5px;
+}
+
+#str4{
+    margin-top: 10px;
+    margin-left: -8px;
+position: absolute;
+}
+.secondlist{
+    height: 20vh;
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    margin-left: 180px;
+}
+
+#phone{
+    padding: 10px;
+background-image: url("./Rectangle\ \(1\).png");
+background-size: cover;
+width: 30px;
+padding: 30px;
+}
+.divphone{
+    display: block;
+    margin-left: 15px;
+    margin-top: -25px;
+}
+.call{
+    display: flex;
+    align-items: center;
+    justify-content:first baseline;
+    margin-top: 60px;
+}
+#TGetfree{
+    position: absolute;
+    height: 27px;
+    left: 12.93%;
+    right: 25.48%;
+    top: 21px;
+    text-decoration: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;    
+    letter-spacing: 0.72px;    
+    color: #FFFFFF;
+}
+#str5{
+    position: absolute;
+    right: 1px;
+    top: 10px;
+    left: 1px;
+   margin-left: 150px;
+  
+}
+#str6{
+
+    position: absolute;
+    left: 165px;
+    bottom: 1px;
+}
+.GetFree{
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 250px;
+    height: 7vh;    
+    margin-top: 50px;
+    font-family: 'Jost';
+}
+.thirdlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.texts h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;  
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.texts p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+      letter-spacing: 0.22px;
+    color: #4D5053;
+    height: 1vh;
+}
+.image3{
+   padding-top: 200px;
+}
+.forthlist{
+width: 80%;
+height: 80vh;
+background: #F4F0EC;
+border-radius: 70px;
+margin: 120px;
+margin-left: 180px;
+}
+.forthlist h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 58px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #292F36;
+margin: 0px;
+}
+.forthlist{
+    padding-top: 100px;
+}
+.forthlist img{
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.fivthlist{
+    width: 90%;
+    margin-left: 330px;
+}
+.divik{
+    display: block;
+}
+.top{
+    display: block;
+}
+.divishe{
+    display: flex;
+    justify-content: start;
+}
+
+.divishe a{
+    margin-left: 220px;
+
+}
+.divishe a:hover{
+    border: 0.1em solid blue;
+    border-radius: 50%;
+}
+#t1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: 0.22px;
+color: #292F36;
+margin: 0px;
+margin-top: 20px;
+}
+#t2{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.22px;
+margin: 0px;
+color: #4D5053;
+}
+.leftik {
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+.rightik{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.sixthlist{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.headof6{
+    text-align: center;
+    margin-top: 160px;
+}
+.headof6 h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.headof6 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin: 0;
+}
+
+.seventhlist{
+    width: 100%;
+    height: 50vh;
+    background: #F4F0EC;
+border-radius: 0px;
+margin: 0;   
+display: flex;   
+align-items: center;
+justify-content: center;
+}
+.seventhlist h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 85px;
+line-height: 128px;
+text-align: center;
+letter-spacing: 1.7px;  
+color: #CDA274;
+}
+.N12{
+   margin-left: 150px;  
+   border-right: 0.1em solid #CDA274;   
+   padding: 10px;
+   padding-right: 40px;
+}
+.seventhlist p{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #4D5053;
+margin-top: -40px;
+}
+#N12N{
+    border: none;
+}
+.kart{
+    border: 1px solid #E7E7E7;
+border-radius: 62px;
+display: block;
+width: 88%;
+height: 48vh;
+padding: 30px;
+margin: 0;
+margin-bottom: 50px;
+}
+.bishturbek{
+    display: flex;
+}
+#Bishtur{
+    margin-left: 150px;
+}
+.dvd{
+    margin-left: 120px;
+    display: block;
+}
+.group{
+    display: flex;
+    margin-top: 60px;
+}
+.lastlist{
+text-align: center;
+margin-top: 120px;
+}
+.lastlist h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #292F36;
+}
+.laslast{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+    position: absolute;
+}
+.lastlist{
+    margin-left: 90px;
+}
+.Conect{
+    background: #CDA274;
+    border: 2px solid #CDA274;
+    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    position: absolute;
+    width: 300px;
+    height: 7vh;
+    padding-top: 20px;
+    right: 20px;
+    left: 592px;
+    top: 310px;
+   
+}
+.Conect a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px;
+}
+footer{
+    margin-top: 800px;
+    display: flex;
+    font-size: 25px;
+    margin-left: 300px;
+}
+.pages{
+    margin-left: 115px;
+}
+.goodbuy{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.Navbar ul li a:hover{
+    color: rgb(46, 152, 240);
+}   
+#Home:hover{
+    color: rgb(143, 17, 17);
+}
+#Int:hover{
+    background-color: #f1e8e8;
+}
+.GetStarted, .GetFree:hover{
+background-color: #5f6264;
+}
+.Conect:hover{
+    background-color: #5f6264;
+    }
+#More:hover{
+color: rgb(154, 196, 236);
+}
+#phone:hover{
+  width: 50px;  
+}
+
+.brand a{
+color: black;
+}
+.brand a:hover{
+   color: rgb(133, 230, 77);
+    }
+    
